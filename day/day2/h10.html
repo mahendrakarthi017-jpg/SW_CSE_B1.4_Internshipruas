@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <p>forms are used to collect the user input and send to a singnal for processing</p>
+    <form action="/submit" method="post">
+     <label for="username">USERNAME: </label>
+     <input type="text" id="username" name="username"> 
+     <label for="PASSWORD">PASSWORD: </label>
+     <input type="password" name="password" id="password" placeholder="password">
+     <label for="EMAIL">EMAIL: </label>
+     <input type="email" name="email" id="email" placeholder="ENTER email">
+     <label for="AGE">AGE: </label>
+     <input type="number" name="age" id="age" placeholder="PLEASE ENTER PASSWORD">
+
+     <select name="gender" id="gender">
+          <option value="">select gender</option>
+          <option value="male">male</option>
+          <option value="female">female</option>
+     </select> <br>
+     <label for="subscribe">for my youtube</label>
+     <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+        <input type="radio" id="option1"  name="options" value="option1">
+        <label for="option1">option1</label>
+        <input type="radio" id="option2"  name="options" value="option2">
+        <label for="option2">option2</label>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+        <fieldset>
+            <legend>PERSONAL INFORMATION</legend>
+            <label for="username">USERNAME: </label>
+            <input type="text" id="username" name="username"> <br>
+            <label for="sername">NAME: </label>
+            <input type="text" id="name" name="sername"> 
+        </fieldset>   
+    </form>
+    <!-- form validation -->
+             <p>the test entered in the form is correct or erong.
+                if it is correct then only it will submitted to the server or
+                it will give an error.
+             </p>
+
+</body>
+</html>
