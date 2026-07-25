@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML tables</title>
 </head>
+
 <body>
     <p>HTML Tables</p>
     <table border="2">
+        <caption>monthly savings report</caption>
         <tr>
             <th>month</th>
             <th>savings</th>
@@ -20,7 +23,33 @@
             <td>july</td>
             <td>1000</td>
         </tr>
-       
+
+    </table>
+
+    <table border="2">
+        <caption>report data</caption>
+        <thead>
+            <tr>
+                <th>month</th>
+                <th>report data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>may</td>
+                <td>230000</td>
+            </tr>
+            <tr>
+                <td>augest</td>
+                <td>6376268</td>
+            </tr>
+        <tfoot>
+            <td>total</td>
+            <td></td>
+        </tfoot>
+
+        </tbody>
     </table>
 </body>
+
 </html>
